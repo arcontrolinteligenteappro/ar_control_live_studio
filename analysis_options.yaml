@@ -1,0 +1,10 @@
+# Archivo de configuración simplificado para evitar errores de URI
+analyzer:
+  errors:
+    unused_import: ignore
+    deprecated_member_use: ignore
+
+linter:
+  rules:
+    - avoid_print
+    - prefer_const_constructors

@@ -1,0 +1,31 @@
+name: ar_control_live_studio
+description: "Sistema de producción en vivo por ChrisRey91"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # --- CORE DEL PROYECTO ---
+  flutter_riverpod: ^2.5.1
+  camera: ^0.10.5+9
+  ffi: ^2.1.2
+  path_provider: ^2.1.3
+  permission_handler: ^11.3.1
+  # --- HARDWARE, VIDEO Y AUDIO ---
+  flutter_webrtc: ^0.9.30
+  flutter_midi_command: ^0.4.8
+  http: ^1.2.1
+  audioplayers: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.4.4
+  build_runner: ^2.4.9
+
+flutter:
+  uses-material-design: true
